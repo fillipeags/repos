@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  max-width: 700px;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -18,6 +17,25 @@ const Container = styled.div`
       margin-right: 10px
     }
   }
+
+
+  @media screen and (max-width: 1366px){
+    max-width: 700px;
+  }
+
+  @media screen and (max-width: 720px){
+    max-width: 650px;
+  }
+
+  @media screen and (max-width: 700px){
+    max-width: 550px;
+  }
+
+
+
+
+
+
 `;
 
 export default Container;
